@@ -178,3 +178,11 @@ ul {
 .button-clear:hover {
     background-color: #e0e0e0;
 }
+
+/* Indicador visual para amigos sorteados */
+.sorteado {
+    background-color: #d3ffd3;
+    text-decoration: line-through;
+}
+
+/* Outros estilos permanecem os mesmos... */

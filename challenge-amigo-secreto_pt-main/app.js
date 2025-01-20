@@ -12,6 +12,13 @@ function adicionarAmigo() {
         return;
     }
 
+    // Verifica se o nome já está na lista
+    const nomeExistente = amigos.some(amigo => amigo.nome.toLowerCase() === nome.toLowerCase());
+    if (nomeExistente) {
+        alert('Este nome já foi adicionado. Tente um nome diferente.');
+        return;
+    }
+
     // Adiciona o nome ao array
     amigos.push({ nome: nome, sorteado: false });
 
@@ -31,6 +38,9 @@ function exibirListaAmigos() {
     amigos.forEach(amigo => {
         const li = document.createElement('li');
         li.textContent = amigo.nome;
+        if (amigo.sorteado) {
+            li.classList.add('sorteado');
+        }
         lista.appendChild(li);
     });
 }
