@@ -160,3 +160,21 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+/* Ajuste no estilo do botão Limpar Lista */
+.button-clear {
+    padding: 15px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    border: 2px solid #000;
+    border-radius: 25px;
+    background-color: #f0f0f0;
+    color: #444;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.button-clear:hover {
+    background-color: #e0e0e0;
+}

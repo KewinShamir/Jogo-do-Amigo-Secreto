@@ -13,7 +13,7 @@ function adicionarAmigo() {
     }
 
     // Adiciona o nome ao array
-    amigos.push(nome);
+    amigos.push({ nome: nome, sorteado: false });
 
     // Limpa o campo de entrada
     nomeInput.value = '';
@@ -30,27 +30,44 @@ function exibirListaAmigos() {
     // Cria e adiciona um <li> para cada amigo na lista
     amigos.forEach(amigo => {
         const li = document.createElement('li');
-        li.textContent = amigo;
+        li.textContent = amigo.nome;
         lista.appendChild(li);
     });
 }
 
-// Função para sortear um amigo aleatório
+// Função para sortear um amigo aleatório e reservar
 function sortearAmigo() {
-    if (amigos.length === 0) {
-        alert('Adicione amigos à lista antes de sortear.');
+    const nomeTirador = document.getElementById('nomeTirador').value.trim();  // Nome da pessoa que está sorteando
+
+    // Verifica se o campo do nome do sorteador está vazio
+    if (nomeTirador === '') {
+        alert('Por favor, insira seu nome antes de sortear.');
+        return;
+    }
+
+    // Filtra amigos que ainda não foram sorteados
+    const amigosNaoSorteados = amigos.filter(amigo => !amigo.sorteado);
+
+    if (amigosNaoSorteados.length === 0) {
+        alert('Não há mais amigos para sortear.');
         return;
     }
 
     // Gera um índice aleatório
-    const indiceAleatorio = Math.floor(Math.random() * amigos.length);
+    const indiceAleatorio = Math.floor(Math.random() * amigosNaoSorteados.length);
 
-    // Obtém o nome sorteado
-    const amigoSorteado = amigos[indiceAleatorio];
+    // Obtém o amigo sorteado
+    const amigoSorteado = amigosNaoSorteados[indiceAleatorio];
 
-    // Exibe o nome sorteado
+    // Marca o amigo como sorteado
+    amigoSorteado.sorteado = true;
+
+    // Exibe o amigo sorteado junto com o nome da pessoa que está sorteando
     const resultado = document.getElementById('resultado');
-    resultado.innerHTML = `O amigo secreto sorteado é: <strong>${amigoSorteado}</strong>`;
+    resultado.innerHTML = `${nomeTirador} sorteou: <strong>${amigoSorteado.nome}</strong>`;
+
+    // Atualiza a lista de amigos
+    exibirListaAmigos();
 }
 
 // Função para limpar a lista de amigos
