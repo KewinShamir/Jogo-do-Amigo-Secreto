@@ -1,11 +1,11 @@
 :root {
-    --color-primary: #4B69FD;
-    --color-secondary: #FFF9EB;
-    --color-tertiary: #C4C4C4;
-    --color-button: #fe652b;
-    --color-button-hover: #e55720;
+    --color-primary: #ffffff;
+    --color-secondary: #89cff0;
+    --color-tertiary: #ffff00;
+    --color-button: #ffff00;
+    --color-button-hover: #ffff00;
     --color-text: #444444;
-    --color-white: #FFFFFF;
+    --color-white: #3d3d3d;
 }
 
 /* Estilos gerais */
@@ -32,7 +32,7 @@ body {
 
 /* Banner */
 .header-banner {
-    flex: 40%;
+    flex: 0%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -43,7 +43,7 @@ body {
 .input-section {
     flex: 60%;
     background-color: var(--color-secondary);
-    border: 1px solid #000;
+    border: 5px solid #000000;
     border-radius: 64px 64px 0 0;
     display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@ body {
     font-size: 48px;
     font-family: "Merriweather", serif;
     font-weight: 900;
-    font-style: italic;
+    font-style: normal;
     color: var(--color-white);
 }
 
@@ -82,7 +82,7 @@ body {
 .input-name {
     width: 100%;
     padding: 10px;
-    border: 2px solid #000;
+    border: 2px solid #000000;
     border-radius: 25px 0 0 25px;
     font-size: 16px;
 }
@@ -136,7 +136,7 @@ ul {
 
 .result-list {
     margin-top: 15px;
-    color: #05DF05;
+    color: #000000;
     font-size: 22px;
     font-weight: bold;
     text-align: center;
@@ -168,7 +168,7 @@ ul {
     font-size: 16px;
     border: 2px solid #000;
     border-radius: 25px;
-    background-color: #f0f0f0;
+    background-color: #000000;
     color: #444;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     cursor: pointer;
@@ -181,8 +181,6 @@ ul {
 
 /* Indicador visual para amigos sorteados */
 .sorteado {
-    background-color: #d3ffd3;
+    background-color: #00ff00;
     text-decoration: line-through;
 }
-
-/* Outros estilos permanecem os mesmos... */
