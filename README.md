@@ -1,7 +1,7 @@
 <h1 align="center">Jogo do Amigo Secreto</h1>
 
 <p align="center">
-  <img src="https://github.com/KewinShamir/Jogo-do-Amigo-Secreto/blob/main/challenge-amigo-secreto_pt-main/assets/amigo-secreto.png" alt="Logo do Projeto" width="400"/>
+  <img src="https://github.com/KewinShamir/Jogo-do-Amigo-Secreto/blob/main/assets/amigo-secreto.png" alt="Logo do Projeto" width="400"/>
 </p>
 
 <p align="center">
