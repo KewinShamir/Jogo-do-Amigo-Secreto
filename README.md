@@ -1,4 +1,6 @@
-<h1 align="center">Jogo do Amigo Secreto</h1> <p align="center"> <img src="assets/amigo-secreto.png" alt="Capa do Jogo do Amigo Secreto" width="400"/> </p> <p align="center"> <!-- 
+<h1 align="center">Jogo do Amigo Secreto</h1>
+![Logo do Projeto](https://github.com/KewinShamir/Jogo-do-Amigo-Secreto/blob/main/challenge-amigo-secreto_pt-main/assets/amigo-secreto.png)
+
 Badges --> <img src="https://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=green&style=for-the-badge" alt="Status: Finalizado"/> <img src="https://img.shields.io/github/stars/KewinShamir/Jogo-do-Amigo-Secreto?style=social" alt="GitHub Stars"/> <img src="https://img.shields.io/github/forks/KewinShamir/Jogo-do-Amigo-Secreto?style=social" alt="GitHub Forks"/> <img src="https://img.shields.io/github/license/KewinShamir/Jogo-do-Amigo-Secreto?style=for-the-badge" alt="Licença"/> </p>
 
 Índice
