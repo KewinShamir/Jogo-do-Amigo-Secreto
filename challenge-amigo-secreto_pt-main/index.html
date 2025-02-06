@@ -18,31 +18,35 @@
         </header>
         
         <section class="input-section">
-            <h2 class="section-title">Digite o nome dos participantes</h2>
-            <div class="input-wrapper">
-                <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
-                <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
-            </div>
+            <div class="columns-container">
+                <!-- Primeira Coluna - Adicionar Participantes -->
+                <div class="column">
+                    <h2 class="section-title">Adicione os participantes</h2>
+                    <div class="input-wrapper">
+                        <input type="text" id="amigo" class="input-name" placeholder="Digite um nome">
+                        <button class="button-add" onclick="adicionarAmigo()">Adicionar</button>
+                    </div>
+                    <ul id="listaAmigos" class="name-list"></ul>
+                    
+                    <div class="button-container">
+                        <button class="button-clear" onclick="limparLista()">Limpar lista</button>
+                        <button class="button-confirm" onclick="confirmarLista()">Confirmar lista</button>
+                    </div>
+                </div>
 
-            <h3 class="section-title">Seu nome (quem está sorteando):</h3>
-            <div class="input-wrapper">
-                <input type="text" id="nomeTirador" class="input-name" placeholder="Digite seu nome">
-            </div>   
-            
-            <ul id="listaAmigos" class="name-list" aria-labelledby="listaAmigos" role="list"></ul>
-            <ul id="resultado" class="result-list" aria-live="polite"></ul>
-
-            <div class="button-container">
-                <button class="button-draw" onclick="sortearAmigo()" aria-label="Sortear amigo secreto">
-                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
-                    Sortear amigo
-                </button>
-            </div>
-            <div class="button-container">
-                <button class="button-draw" onclick="limparLista()" aria-label="Limpar lista de amigos">
-                    <img src="assets/play_circle_outline.png" alt="Ícone para sortear">
-                    Limpar lista
-                </button>
+                <!-- Segunda Coluna - Sorteio -->
+                <div class="column">
+                    <h2 class="section-title">Quem está sorteando?</h2>
+                    <select id="nomeTirador" class="input-name">
+                        <option value="">Selecione seu nome</option>
+                    </select>
+                    <div class="button-container">
+                        <button class="button-draw" onclick="sortearAmigo()">
+                                                       Sortear amigo
+                        </button>
+                    </div>
+                    <ul id="resultado" class="result-list"></ul>
+                </div>
             </div>
         </section>
     </main>
