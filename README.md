@@ -1,58 +1,92 @@
 <h1 align="center">Jogo do Amigo Secreto</h1>
-![Logo do Projeto](https://github.com/KewinShamir/Jogo-do-Amigo-Secreto/blob/main/challenge-amigo-secreto_pt-main/assets/amigo-secreto.png)
 
-Badges --> <img src="https://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=green&style=for-the-badge" alt="Status: Finalizado"/> <img src="https://img.shields.io/github/stars/KewinShamir/Jogo-do-Amigo-Secreto?style=social" alt="GitHub Stars"/> <img src="https://img.shields.io/github/forks/KewinShamir/Jogo-do-Amigo-Secreto?style=social" alt="GitHub Forks"/> <img src="https://img.shields.io/github/license/KewinShamir/Jogo-do-Amigo-Secreto?style=for-the-badge" alt="Licença"/> </p>
+<p align="center">
+  <img src="https://github.com/KewinShamir/Jogo-do-Amigo-Secreto/blob/main/challenge-amigo-secreto_pt-main/assets/amigo-secreto.png" alt="Logo do Projeto" width="400"/>
+</p>
 
-Índice
-Descrição do Projeto
-Status do Projeto
-Funcionalidades e Demonstração da Aplicação
-Acesso ao Projeto
-Tecnologias Utilizadas
-Pessoas Contribuidoras
-Pessoas Desenvolvedoras do Projeto
-Licença
+<p align="center">
+  <img src="https://img.shields.io/static/v1?label=STATUS&message=Finalizado&color=green&style=for-the-badge" alt="Status: Finalizado"/>
+</p>
 
-Descrição do Projeto
+<p align="center">
+  <strong>
+    Índice<br>
+    - Descrição do Projeto<br>
+    - Status do Projeto<br>
+    - Funcionalidades e Demonstração da Aplicação<br>
+    - Tecnologias Utilizadas<br>
+    - Pessoas Contribuidoras<br>
+    - Pessoas Desenvolvedoras do Projeto<br>
+    - Licença<br>
+    - Acesso ao Projeto<br>
+  </strong>
+</p>
+
+---
+
+<h2 align="center"><strong>Descrição do Projeto</strong></h2>
+
+<p align="center"><strong>
 O Jogo do Amigo Secreto é uma aplicação web interativa desenvolvida para organizar sorteios de amigo secreto de forma simples, anônima e divertida.
-O projeto permite:
+</strong></p>
 
-Adicionar participantes a uma lista.
-Confirmar a lista de participantes.
-Realizar sorteios onde o sorteio é mantido em sigilo, revelado somente quando o usuário opta por visualizar o resultado.
-Impedir que um mesmo participante sorteie mais de uma vez.
+<p align="center"><strong>
+O projeto permite:<br>
+- Adicionar participantes a uma lista.<br>
+- Confirmar a lista de participantes.<br>
+- Realizar sorteios onde o sorteio é mantido em sigilo, revelado somente quando o usuário opta por visualizar o resultado.<br>
+- Impedir que um mesmo participante sorteie mais de uma vez.
+</strong></p>
 
-Status do Projeto
-<h4 align="center"> 🚀 Projeto Finalizado 🚀 </h4>
+---
 
-Funcionalidades e Demonstração da Aplicação
+<h2 align="center"><strong>Status do Projeto</strong></h2>
 
-Adicionar Participantes: Permite inserir nomes e exibir uma lista dos participantes.
-Confirmação da Lista: Bloqueia os nomes adicionados e permite selecionar quem realizará o sorteio.
-Sorteio Anônimo: O sorteio é realizado de forma sigilosa e o resultado só é revelado mediante ação do usuário.
-Validações e Prevenções: Impede sorteios duplicados e exibe alertas quando não há mais participantes disponíveis.
-Reset do Jogo: Opção para limpar toda a lista e reiniciar o sorteio.
-Demonstração:
+<p align="center"><strong>🚀 Projeto Finalizado 🚀</strong></p>
+
+---
+
+<h2 align="center"><strong>Funcionalidades e Demonstração da Aplicação</strong></h2>
+
+<p align="center"><strong>
+- Adicionar Participantes: Permite inserir nomes e exibir uma lista dos participantes.<br>
+- Confirmação da Lista: Bloqueia os nomes adicionados e permite selecionar quem realizará o sorteio.<br>
+- Sorteio Anônimo: O sorteio é realizado de forma sigilosa e o resultado só é revelado mediante ação do usuário.<br>
+- Validações e Prevenções: Impede sorteios duplicados e exibe alertas quando não há mais participantes disponíveis.<br>
+- Reset do Jogo: Opção para limpar toda a lista e reiniciar o sorteio.
+</strong></p>
+
+<p align="center"><strong>
+Demonstração:<br>
 Você pode visualizar o funcionamento do sistema através dos GIFs/imagens incluídos no repositório ou executando localmente.
+</strong></p>
 
-Acesso ao Projeto
-Você pode acessar o código fonte e clonar o repositório usando o Git:
+---
 
+</strong></p>
+
+<h2 align="center"><strong>Tecnologias Utilizadas</strong></h2> <p align="center"><strong> HTML5<br> CSS3<br> JavaScript </strong></p>
+
+---
+
+<h2 align="center"><strong>Pessoas Contribuidoras</strong></h2> <p align="center"><strong> Atualmente, este projeto foi desenvolvido individualmente. Se desejar contribuir, sinta-se à vontade para enviar pull requests ou abrir issues! </strong></p>
+
+---
+
+<h2 align="center"><strong>Pessoas Desenvolvedoras do Projeto</strong></h2> <p align="center"> <a href="https://github.com/KewinShamir"> <img src="https://avatars.githubusercontent.com/u/KewinShamir?v=4" width="115" alt="Kewin Shamir"/><br> <sub><strong>Kewin Shamir</strong></sub> </a> </p>
+
+---
+
+<h2 align="center"><strong>Licença</strong></h2> <p align="center"><strong> Este projeto está licenciado sob a <a href="LICENSE">MIT License</a>. </strong></p> <p align="center"><strong> Participe, contribua e divirta-se com o Jogo do Amigo Secreto! </strong></p>
+
+---
+
+<h2 align="center"><strong>Acesso ao Projeto</strong></h2>
+
+<p align="center"><strong>
+Você pode acessar o código fonte e clonar o repositório usando o Git:<br><br>
+Depois de clonado, abra o arquivo <code>index.html</code> no seu navegador para rodar a aplicação.
+
+```bash
 git clone https://github.com/KewinShamir/Jogo-do-Amigo-Secreto.git
 
-Depois de clonado, abra o arquivo index.html no seu navegador para rodar a aplicação.
-
-Tecnologias Utilizadas
-HTML5
-CSS3
-JavaScript
-
-Pessoas Desenvolvedoras do Projeto
-<img src="https://avatars.githubusercontent.com/u/KewinShamir?v=4" width="115"><br><sub>Kewin Shamir</sub>
-Kewin Shamir
-Obs.: Substitua "SEUID" pelo seu número de usuário do GitHub, se desejar exibir sua foto corretamente.
-
-Licença
-Este projeto está licenciado sob a MIT License.
-
-Participe, contribua e divirta-se com o Jogo do Amigo Secreto!
