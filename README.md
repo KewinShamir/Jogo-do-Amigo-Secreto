@@ -1,7 +1,7 @@
 <h1 align="center">Jogo do Amigo Secreto</h1>
 
 <p align="center">
-  <img src="https://github.com/KewinShamir/Jogo-do-Amigo-Secreto/blob/main/challenge-amigo-secreto_pt-main/assets/amigo-secreto.png" alt="Logo do Projeto" width="400"/>
+  <img src="https://github.com/KewinShamir/Jogo-do-Amigo-Secreto/blob/main/assets/amigo-secreto.png" alt="Logo do Projeto" width="400"/>
 </p>
 
 <p align="center">
@@ -73,7 +73,7 @@ Você pode visualizar o funcionamento do sistema através dos GIFs/imagens inclu
 
 ---
 
-<h2 align="center"><strong>Pessoas Desenvolvedoras do Projeto</strong></h2> <p align="center"> <a href="https://github.com/KewinShamir"> <img src="https://avatars.githubusercontent.com/u/KewinShamir?v=4" width="115" alt="Kewin Shamir"/><br> <sub><strong>Kewin Shamir</strong></sub> </a> </p>
+<h2 align="center"><strong>Pessoas Desenvolvedoras do Projeto</strong></h2> <p align="center"> <a href="https://github.com/KewinShamir"> <img src="https://avatars.githubusercontent.com/u/195617024?v=4" width="115" alt="Kewin Shamir"/><br> <sub><strong>Kewin Shamir</strong></sub> </a> </p>
 
 ---
 
