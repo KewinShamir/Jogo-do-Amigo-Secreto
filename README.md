@@ -48,6 +48,8 @@ O projeto permite:<br>
 
 <h2 align="center"><strong>Funcionalidades e Demonstração da Aplicação</strong></h2>
 
+https://github.com/user-attachments/assets/1186d3f2-3485-4e2f-9011-6181176d0d5f
+
 <p align="center"><strong>
 - Adicionar Participantes: Permite inserir nomes e exibir uma lista dos participantes.<br>
 - Confirmação da Lista: Bloqueia os nomes adicionados e permite selecionar quem realizará o sorteio.<br>
